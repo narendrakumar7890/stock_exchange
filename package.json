@@ -1,0 +1,19 @@
+{
+  "name": "stock_exchange",
+  "version": "1.0.0",
+  "description": "stocks list with graph ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narendrakumar7890/stock_exchange.git"
+  },
+  "author": "Narendra kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narendrakumar7890/stock_exchange/issues"
+  },
+  "homepage": "https://github.com/narendrakumar7890/stock_exchange#readme"
+}
