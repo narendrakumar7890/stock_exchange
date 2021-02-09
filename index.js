@@ -1,8 +1,8 @@
-var BSEAPI = require('./bse/index');
+//var BSEAPI = require('./bse/index');
 var NSEAPI = require('./nse/index');
 
 var API = {
-	BSE: BSEAPI,
+	//BSE: BSEAPI,
 	NSE: NSEAPI
 };
 
