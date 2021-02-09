@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock List App</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet">
+    <style>
+
+
+    </style>
+
+    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/data.js"></script>
+
+    <script src="https://code.highcharts.com/modules/annotations-advanced.js"></script>
+
+    <script src="https://code.highcharts.com/modules/stock-tools.js"></script>
+
+</head>
+
+<body>
+<h1>Stock Exchange App</h1>
+
+<div class="stocks">
+    <div class="stocks-list">
+        <div class="user-list">
+            <h3 class="table-title">Stocks</h3>
+
+            <!--<div class="left-header">
+                <div>Name</div>
+                <div>Value</div>
+                <div>History</div>
+                <div>UpdateAt</div>
+            </div>
+            <div id="stock_List" class="stock_List">
+
+            </div>-->
+
+
+            <table style="width: 100%;" id="stock_table">
+                <thead>
+                <tr>
+                    <td style="width: 25%;" >Name</td>
+                    <td style="width: 25%;" >Value </td>
+                    <td style="width: 25%;" >History</td>
+                    <td style="width: 25%;" >UpdateAt</td>
+                </tr>
+                </thead>
+                <tbody class="stock_List"  id="stock_List"></tbody>
+            </table>
+
+        </div>
+    </div>
+
+    <div class="stock-container">
+         <div id="container" style="height: 400px; min-width: 310px"></div>
+
+        <div class="highcharts-popup highcharts-popup-annotations">
+            <div class="highcharts-popup-wrapper">
+                <label for="stroke">Color</label>
+                <input type="color" name="stroke" value="rgba(0, 0, 0, 0.75)"/>
+            </div>
+            <button class="button">Save</button>
+        </div>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="front.js"></script>
+</body>
+</html>

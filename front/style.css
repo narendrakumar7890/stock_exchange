@@ -1,0 +1,72 @@
+.stocks{
+    display: flex;
+    flex-wrap: wrap;
+}
+.stocks-list {
+    width: 25%;
+    border: 1px solid #DDDDEB;
+    padding: 8px;
+}
+.stock-container{
+    width: 70%;
+    border: 1px solid #DDDDEB;
+    padding: 8px;
+}
+.table-title{
+    background: #2D5867;
+    color: #FFF;
+    margin: 0;
+    padding: 7px 9px;
+    margin-bottom: 15px;
+}
+#stock_table  tbody >tr:hover{
+    cursor:pointer;
+}
+#stock_table  thead >tr >td{
+    border: 1px solid #DDDDEB;
+}
+#stock_table  tbody > tr  >td{
+    border: 1px solid #DDDDEB;
+}
+
+.left-header{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #DDDDEB;
+}
+.left-header div{
+    flex:25%;
+}
+.left-header div:child{
+    flex:25%;
+}
+
+.highcharts-popup-annotations {
+    display: none;
+    position: absolute;
+    left: calc(50% - 50px);
+    width: 100px;
+    background-color: white;
+    border: 2px grey solid;
+    padding: 10px;
+    top: 150px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #4CAF50;
+}
+
+.button:hover, button.active {
+    background-color: white;
+    color: black;
+}
